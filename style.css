@@ -1,0 +1,220 @@
+/* A seção body define a fonte principal e o fundo do site, 
+usando uma imagem de gradiente linear. */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #9e9e9e, #424242);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #333;
+}
+
+/* A seção h1, h2, h3, h4, h5, h6 define a fonte para os títulos HTML de diferentes níveis de hierarquia. */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, serif;
+}
+
+
+/* Definindo estilos para a seção "intro"
+A seção intro define estilos para uma seção "introdução" do site, incluindo alinhamento centralizado, 
+largura máxima, cor de fundo e tamanho de fonte para os cabeçalhos e parágrafos.
+*/
+.intro {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 800px;
+  background-color: #ffffff;
+  /* fundo branco */
+  color: #333;
+  /* texto preto */
+}
+
+.intro h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.intro h2 {
+  font-size: 1.5em;
+  margin-bottom: 2em;
+}
+
+.intro p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 1.5em;
+}
+
+/* Definindo estilos para a seção "summary" 
+A seção summary define estilos para uma seção "resumo" do site, incluindo largura 
+máxima, cor de fundo, preenchimento e tamanho de fonte para os cabeçalhos e parágrafos.
+*/
+
+.summary {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.summary h2 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.summary p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 1.5em;
+}
+
+.summary a {
+  color: black;
+}
+
+/* Definindo estilos para a seção "preamble" 
+
+A seção preamble define estilos para uma seção "preâmbulo" do site, 
+incluindo largura máxima, cor de fundo e tamanho de fonte para os cabeçalhos e 
+parágrafos.
+*/
+.preamble {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  /* fundo branco */
+  color: #333;
+  /* texto preto */
+}
+
+.preamble h3 {
+  font-size: 1.8em;
+  margin-bottom: 1em;
+}
+
+.preamble p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 1.5em;
+}
+
+/* Definindo estilos para a seção "main supporting" 
+A seção supporting define estilos para uma seção "apoio principal" do site, 
+que contém elementos dispostos lado a lado.
+ Ela inclui largura máxima, cor de fundo 
+e tamanho de fonte para os cabeçalhos e parágrafos, bem como uma regra de estilo 
+para o contêiner flexível.
+*/
+.supporting {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  /* fundo cinza claro */
+  color: #666;
+  /* texto cinza */
+}
+/*
+A seção explanation define estilos para um elemento de texto específico dentro da seção "apoio principal", 
+incluindo largura máxima, margem à direita e tamanho de fonte para os cabeçalhos e parágrafos.
+*/
+.explanation {
+  max-width: 400px;
+  margin-right: 1em;
+}
+
+.explanation h3 {
+  font-size: 1.8em;
+  margin-bottom: 1em;
+}
+
+.explanation p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 1.5em;
+}
+
+/* Definindo estilos para o rodapé 
+
+A seção footer define estilos para o rodapé do site, incluindo largura, margem superior, 
+tamanho de fonte e cor do texto, além de uma regra de estilo para ocultar a decoração de texto e centralizar o conteúdo.
+*/
+footer {
+  text-decoration: none;
+  text-align: center;
+  margin-top: 2em;
+  font-size: 0.8em;
+  color: #f4f4f4;
+  /* texto branco */
+  padding: 30px;
+  width: 23.5%;
+  margin: 0 auto;
+}
+
+footer a {
+  text-decoration: none;
+  color: #f4f4f4;
+}
+
+/*
+A seção sidebar define estilos para uma barra lateral do site, incluindo largura, margem à direita, 
+preenchimento, cor de fundo e sombra da caixa. Ela também define estilos para os títulos, listas e links dentro da barra lateral.
+*/
+
+.sidebar {
+  width: 25%;
+  margin-right: 5%;
+  padding: 20px;
+  background-color: #f0f0f0;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+
+}
+
+.sidebar h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  color: #333;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+/*
+A seção main.supporting redefine os estilos para a seção "apoio principal", 
+adicionando uma borda e uma cor de fundo mais clara. Ela também define estilos para os links dentro da seção.
+*/
+.main.supporting {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 20px;
+
+}
+
+.main.supporting a {
+  text-decoration: none;
+  color: black;
+}
